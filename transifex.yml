@@ -1,0 +1,71 @@
+git:
+  filters:
+   - filter_type: file
+     file_format: TXT
+     source_file: locale/example.txt
+     source_language: en
+     translation_files_expression: 'translations/<lang>/'
+
+   - filter_type: file
+     file_format: XLIFF
+     source_file: SourceDocs/XLIFF-Export_en.xlf
+     source_language: en
+     translation_files_expression: 'SourceDocs/XLIFF-Import_<lang>.xlf'
+
+   - filter_type: dir
+     file_format: TXT
+     source_file_extension: txt
+     source_language: en
+     source_file_dir: locale/TestDir/
+     translation_files_expression: 'translations/<lang>/'
+
+   - filter_type: dir
+     file_format: KEYVALUEJSON
+     source_file_extension: json
+     source_language: en
+     source_file_dir: locale/TestDir/JSONfiles
+     translation_files_expression: 'translations/<lang>/'
+
+   - filter_type: dynamic
+     file_format: KEYVALUEJSON
+     source_files_expression: locale/TestDir/HL/en-us.json
+     source_language: en
+     translation_files_expression: 'locale/TestDir/HL/<lang>.json'
+
+   - filter_type: dir
+     file_format: MS_DOCX
+     source_file_extension: docx
+     source_language: en
+     source_file_dir: locale/TestDir/DOCXfiles
+     translation_files_expression: 'translations/<lang>/'
+
+   - filter_type: dir
+     file_format: XLIFF
+     source_file_extension: xlf
+     source_language: en
+     source_file_dir: locale/TestDir/Xliff-files
+     translation_files_expression: 'translations/<lang>/'
+
+   - filter_type: dir
+     file_format: RESX
+     source_file_extension: resx
+     source_language: en
+     source_file_dir: locale/TestDir/ResourceFiles
+     translation_files_expression: 'translations/<lang>/'
+
+   - filter_type: dynamic
+     file_format: RESX
+     source_files_expression: locale/test_new_path/example.resx
+     source_language: en
+     translation_files_expression: 'locale/test_new_path/example.<lang>.resx'
+
+   - filter_type: dynamic
+     file_format: RESX
+     source_files_expression: Bite/FrameworkMVP/example.resx
+     source_language: en
+     translation_files_expression: 'Bite/FrameworkMVP/example.<lang>.resx'
+
+  settings:
+      language_mapping:
+          fr_FR: fr-FR
+          pl_PL: pl-PL
