@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xliff xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="Assets/Localization/Tables/LocalizedStrings_en.asset" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <skl>
+        <external-file href="Assets/Localization/Tables/LocalizedStrings_en.asset" uid="21fb476bac7e04c8980aec2467e8f9fb" />
+      </skl>
+    </header>
+    <body>
+      <group id="196ab61a166b2489a85b607d8262d13e" resname="LocalizedStrings">
+        <trans-unit id="98149851136" xml:space="preserve" resname="ChangeLanguageButtonText">
+          <source>Change Language</source>
+          <target>Change Language</target>
+        </trans-unit>
+        <trans-unit id="1171350609920" xml:space="preserve" resname="PlayButton">
+          <source>Play</source>
+          <target>Play</target>
+        </trans-unit>
+        <trans-unit id="993254563635200" xml:space="preserve" resname="SpeedLabel">
+          <source>Speed</source>
+          <target>Speed</target>
+        </trans-unit>
+        <trans-unit id="997075788488704" xml:space="preserve" resname="Instructions/PIckup">
+          <source>Pick up a passenger</source>
+          <target>Pick up a passenger</target>
+        </trans-unit>
+        <trans-unit id="997199902138368" xml:space="preserve" resname="InstructionsDropoff">
+          <source>Drop them off - follow the arrow!</source>
+          <target>Drop them off - follow the arrow!</target>
+        </trans-unit>
+        <trans-unit id="997311801974784" xml:space="preserve" resname="PassengerCount">
+          <source>Passengers Dropped Off:</source>
+          <target>Passengers Dropped Off:</target>
+        </trans-unit>
+        <trans-unit id="997617554153472" xml:space="preserve" resname="RestartGameButton">
+          <source>Restart</source>
+          <target>Restart</target>
+        </trans-unit>
+        <trans-unit id="2494042439933952" xml:space="preserve" resname="HighScoreLabel">
+          <source>High Score:</source>
+          <target>High Score:</target>
+        </trans-unit>
+        <trans-unit id="2535513452961792" xml:space="preserve" resname="CharacterIndicator">
+          <source>You</source>
+          <target>You</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,8 @@
+{
+    "Topic": "¿Por qué Transifex Live?",
+    "Topic Description": "La forma más fácil y rápida para {user_name_placeholder} de traducir su aplicación web o sitio web. Funciona a través de un fragmento de JavaScript que añades a tu sitio, similar a Google Analytics.",
+    "Key Capability One": "Collect: Easily save your website content for in-context translation. Ignore strings that you don’t want to translate",
+    "Key Capability Two": "Traduce: Utilice nuestros socios de traducción, sus traductores actuales o su multitud, y mantenga el contenido traducido en un lugar consolidado.",
+    "Key Capability Three": "Publique: Despídete de la infraestructura y los costes adicionales sirviendo tus contenidos traducidos a través de nuestra fiable CDN",
+    "transifex": "<b>transifex</b>"
+}

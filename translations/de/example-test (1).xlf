@@ -1,0 +1,29 @@
+<?xml version="1.0" ?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="en.lproj/Localizable.txt" source-language="en" target-language="de">
+    <body>
+      <trans-unit datatype="html" id="c45cd9aac232c428aa0ffe75408a4dfd2a0c0503">
+        <source>Are you sure you want to delete those student(s)</source>
+        <target>Sind Sie sicher, dass Sie diese(n) Schüler löschen wollen?</target>
+        <note from="description" priority="1">Confirmation question</note>
+      </trans-unit>
+      <trans-unit datatype="html" id="576413276e4ee299f9a138e749b71e2f5b0d3ed5">
+        <source>Confirm email address</source>
+        <target>E-Mail Adresse bestätigen</target>
+		  <context-group name="po-reference-2" purpose="location">
+			<context context-type="sourcefile">simple.c</context>
+			<context context-type="linenumber">5</context>
+		  </context-group>		
+      </trans-unit>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="1[0]" xml:space="preserve">
+          <source>Your trial ends in 1 day</source>
+          <target>Ihre Testphase endet in 1 Tag</target>
+        </trans-unit>
+        <trans-unit id="1[1]" xml:space="preserve">
+          <source>Your trial ends in %@ days</source>
+          <target>Ihre Probezeit endet in %@ Tagen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

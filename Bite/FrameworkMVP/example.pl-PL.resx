@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <data name="Btn_Inc_GetPrice">
+      <value>αυτή είναι η συμβολοσειρά</value>
+      <comment>This is a comment</comment>
+    </data>
+    <data name="access_across_devices" xml:space="preserve">
+      <value>Πρόσβαση σε όλες τις συσκευές</value>
+    </data>
+    <data name="all_plans_include_label" xml:space="preserve">
+      <value>Όλα τα Προγράμματα περιλαμβάνουν τα εξής</value>
+    </data>
+</root>
