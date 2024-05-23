@@ -20,6 +20,13 @@ git:
      translation_files_expression: 'translations/<lang>/'
 
    - filter_type: dir
+     file_format: HTML
+     source_file_extension: htm
+     source_language: en
+     source_file_dir: Test Folder/inspec/
+     translation_files_expression: 'Test Folder/inspec_<lang>/'
+
+   - filter_type: dir
      file_format: KEYVALUEJSON
      source_file_extension: json
      source_language: en
